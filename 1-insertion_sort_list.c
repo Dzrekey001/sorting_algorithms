@@ -29,7 +29,7 @@ void insertion_sort_list(listint_t **list)
 	listint_t *current, *insertion_point, *tmp;
 	size_t length = _len(*list);
 
-	if (list == NULL || *list == NULL || lenght < 2)
+	if (list == NULL || *list == NULL || length < 2)
 		return;
 
 	current = (*list)->next;
